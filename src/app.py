@@ -13,7 +13,7 @@ def homepage():
 
     # Render HTML with variable     # Cambio tema dog a cat     # Refresco
     return render_template("index.html", the_time=the_time, tema="cat", 
-                           alto="600", ancho="920")
+                           alto="600", ancho="820")
 
 @app.route('/status')
 def status():
