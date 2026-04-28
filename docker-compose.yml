@@ -1,0 +1,10 @@
+# version: "3.1"
+
+services:
+  galeria:
+    container_name: galeria
+    # Debe ser el name usado en el action de GH
+    image: 0adr1/galeria:latest
+    ports:
+      - 80:5000
+    restart: always
